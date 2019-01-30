@@ -1,0 +1,122 @@
+body{
+    background-image: url('x-o.jpg');
+}
+#ch{
+    border-radius: 50%;
+    width: 400px;
+    height: 150px;  
+    margin:auto;
+    background-color: rgba(255, 254, 254, 0.363);
+   position: absolute;
+   top:90px;
+   left: 440px;
+    text-align: center;
+    padding-top:3px;
+    margin-top:100px; 
+    line-height: 170px ;
+    font-size: 40px;
+   
+}
+#row1 {
+/* border: 1px solid white; */
+width: 500px;
+height: 150px ;
+margin: auto;
+margin-top: 40px;
+background-color: black;
+display: flex;
+}
+.co1{
+    border-bottom: 20px solid white;
+    width: 165px;
+    height: 149px;
+    text-align: center;
+    font-size: 50px;
+    color:white;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    line-height: 150px 
+    
+}
+#co1-2{
+    border-bottom:20px solid white;
+    border-left:20px solid white;
+    border-right:20px solid white;
+}
+#row2 {
+ 
+width: 500px;
+height: 150px ;
+margin: auto;
+
+background-color: black;
+display: flex;
+ 
+    }
+    #co2-2{
+        
+        border-left:20px solid white;
+        border-right:20px solid white;
+    }
+    .co2{
+        border-bottom: 20px solid white; 
+        width: 165px;
+        height: 149px;
+        text-align: center;
+        font-size: 50px;
+        color:white;
+        padding-top:10px; 
+        line-height: 150px ;
+        font-family: "Comic Sans MS", cursive, sans-serif;
+        
+    }
+
+    #row3 {
+       
+width: 500px;
+height: 160px ;
+margin: auto;
+
+background-color: black;
+display: flex;
+        }
+
+        #co3-2{
+           
+            border-left:20px solid white;
+            border-right:20px solid white;
+        }
+
+        .co3{
+            
+            width: 165px;
+            height: 159px;
+            text-align: center;
+            font-size: 50px;
+            color:white;
+            line-height: 150px ;
+            font-family: "Comic Sans MS", cursive, sans-serif;
+            
+        }
+
+        b{
+            height: 100px;
+            width: 100px;
+            color:black;
+            background-color: black;
+            font-family: "Courier New", Courier, monospace;
+        }
+        #f{
+            margin:auto;
+            display: flex;
+            
+            width: 180px;
+            
+        }
+        form{
+            margin:auto;
+            font-size: 15px;
+            font-family:"Courier New", Courier, monospace;
+            background-color: black;
+            color:white;
+            border: 1px dotted gray; 
+        }
