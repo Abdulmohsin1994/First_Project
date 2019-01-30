@@ -630,6 +630,7 @@ function playTurnCo(){
             $('#co3-2').text('O')
             $('#co3-2').off();
             }
+           
         else  if($('#co2-2').text() === "X" && $('#co1-3').text() === " "){
             $('#co1-3').text('O')
             $('#co1-3').off();
@@ -752,6 +753,10 @@ function playTurnCo(){
             $('#co1-3').text('O')
             $('#co1-3').off();
            }
+           else  if($('#co1-1').text() === "O" && $('#co3-1').text() === " "){
+            $('#co3-1').text('O')
+            $('#co3-1').off();
+            }
          else   if($('#co3-1').text() === "X" && $('#co3-2').text() === " "){
             $('#co3-2').text('O')
             $('#co3-2').off();
@@ -760,6 +765,10 @@ function playTurnCo(){
             $('#co1-1').text('O')
             $('#co1-1').off();
             }
+            else  if($('#co3-2').text() === "X" && $('#co3-1').text() === " "){
+                $('#co3-1').text('O')
+                $('#co3-1').off();
+                }
 
             else if($('#co3-3').text() === "X" && $('#co2-3').text() === " "){
                 $('#co2-3').text('O')
@@ -857,6 +866,60 @@ function Owin(){
                         $('#co1-3').off();
                         }
                     }
+                    else  if($('#co1-1').text() === "O" && $('#co3-1').text() === "O"){
+                        if($('#co2-1').text() === " "){
+                            $('#co2-1').text('O')
+                            $('#co2-1').off();
+                            }
+                        }
+                        else  if($('#co1-2').text() === "O" && $('#co3-2').text() === "O"){
+                            if($('#co2-2').text() === " "){
+                                $('#co2-2').text('O')
+                                $('#co2-2').off();
+                                }
+                            }
+                        else  if($('#co1-3').text() === "O" && $('#co3-3').text() === "O"){
+                            if($('#co2-3').text() === " "){
+                                $('#co2-3').text('O')
+                                $('#co2-3').off();
+                                }
+                            }
+                            else  if($('#co1-1').text() === "O" && $('#co1-3').text() === "O"){
+                                if($('#co1-2').text() === " "){
+                                    $('#co1-2').text('O')
+                                    $('#co1-2').off();
+                                    }
+                                }
+                                else  if($('#co3-1').text() === "O" && $('#co3-3').text() === "O"){
+                                    if($('#co3-2').text() === " "){
+                                        $('#co3-2').text('O')
+                                        $('#co3-2').off();
+                                        }
+                                    }
+                                    else  if($('#co1-3').text() === "O" && $('#co2-2').text() === "O"){
+                                        if($('#co3-1').text() === " "){
+                                            $('#co3-1').text('O')
+                                            $('#co3-1').off();
+                                            }
+                                        }
+                                        else  if($('#co1-1').text() === "O" && $('#co2-2').text() === "O"){
+                                            if($('#co3-3').text() === " "){
+                                                $('#co3-3').text('O')
+                                                $('#co3-3').off();
+                                                }
+                                            }
+                                            else  if($('#co3-3').text() === "O" && $('#co2-2').text() === "O"){
+                                                if($('#co1-1').text() === " "){
+                                                    $('#co1-1').text('O')
+                                                    $('#co1-1').off();
+                                                    }
+                                                }
+                                                else  if($('#co3-1').text() === "O" && $('#co2-2').text() === "O"){
+                                                    if($('#co1-3').text() === " "){
+                                                        $('#co1-3').text('O')
+                                                        $('#co1-3').off();
+                                                        }
+                                                    }
 }
 function WinO(){
   
