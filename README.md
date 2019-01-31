@@ -15,10 +15,10 @@ The most diffcult part in this project is (HOW TO Design it ) background,color,f
 
 # The approach taken
 
--Function_player
--Function_change_player
--Function_computer_play
--Function_who'sWin
+* Function_player
+* Function_change_player
+* Function_computer_play
+* Function_who'sWin
 
 # Code 
 The most interesting part is when you run your game and found that there is new pattren that the human cab beat the computer and that not what we want so i tried to cover it.
