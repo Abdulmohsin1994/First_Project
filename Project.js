@@ -626,7 +626,12 @@ function playTurnCo(){
          $('#co3-1').text('X')
          $('#co3-1').off();
          Owin();
-         if($('#co3-3').text() === "X" && $('#co3-2').text() === " "){
+         if ($('#co3-2').text() === "X" && $('#co3-3').text() === " "){
+            $('#co3-3').text('O')
+            $('#co3-3').off();
+            }
+
+         else if($('#co3-3').text() === "X" && $('#co3-2').text() === " "){
             $('#co3-2').text('O')
             $('#co3-2').off();
             }
