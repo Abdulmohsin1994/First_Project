@@ -24,7 +24,7 @@ The most diffcult part in this project is (HOW TO Design it ) background,color,f
 The most interesting part is when you run your game and found that there is new pattren that the human cab beat the computer and that not what we want so i tried to cover it.
 This game was solved by using only functions, so it's take too many lines and that horrible :).
 
-Acknowledgment
+#  Acknowledgment
 
 @moath
 @Usman
